@@ -36,5 +36,5 @@ Computer Science student (Graduating 2027) | Aspiring AI & XR Developer (also in
 | Date | Achievement | Link |
 | :--- | :--- | :--- |
 | **2026.06** | Completed 3 DataCamp Cources | [View Cert: Advanced Git](assets/advanced_git.png) <br> [Intermediate_python](assets/inter_python.png) <br> [Claude Code 101](assets/claude.png) |
-| **2025.12** | I,,, | [Read More](#) |
+| **2023.09** | Ranked in the **top 2%** nationally among ~147,000 candidates in Mathematics & Physics. | [ckeck it out! (in Persian)](assets/uee.png)  |
 | **2020.09** | Graduated ILI with C2 in English | [View Cert](assets/ILI_1.jpg)  <br> [(also check this for more info)](assets/ILI_2.jpg)  |

@@ -35,6 +35,6 @@ Computer Science student (Graduating 2027) | Aspiring AI & XR Developer
 
 | Date | Achievement | Link |
 | :--- | :--- | :--- |
-| **2026.06** | Completed 3 DataCamp Cources | [View Cert: Advanced Git](assets/advanced_git.png) [Intermediate_python](assets/inter_python.png) [Claude Code 101](assets/claude.png) |
+| **2026.06** | Completed 3 DataCamp Cources | [View Cert: Advanced Git](assets/advanced_git.png) <br> [Intermediate_python](assets/inter_python.png) <br> [Claude Code 101](assets/claude.png) |
 | **2025.12** | I,,, | [Read More](#) |
-| **2020.09** | Graduated ILI with C2 in English | [View Cert](assets/ILI_1.jpg)   [(also check this for more info)](assets/ILI_2.jpg)  |
+| **2020.09** | Graduated ILI with C2 in English | [View Cert](assets/ILI_1.jpg)  <br> [(also check this for more info)](assets/ILI_2.jpg)  |

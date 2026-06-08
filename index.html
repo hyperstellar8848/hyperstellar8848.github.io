@@ -9,20 +9,23 @@
             background: #000; 
             color: #e0e0e0; 
             font-family: 'Courier New', Courier, monospace; 
-            padding: 50px; 
+            padding: 50px 20px; 
             line-height: 1.6;
             max-width: 800px;
             margin: auto;
-            overflow: hidden; /* Keeps the stars contained */
+            
+            overflow-x: hidden; 
+            overflow-y: auto; 
             position: relative;
+            min-height: 100vh;
         }
 
-        /* The cute drifting stars */
+        /* The cuuuutteeee drifting stars */
         .star-bg {
             position: fixed;
             color: #ff62c1;
             font-size: 10px;
-            z-index: -1; /* Behind the content */
+            z-index: -1; 
             pointer-events: none;
             opacity: 0.6;
             animation: drift linear infinite;
@@ -30,21 +33,22 @@
 
         @keyframes drift {
             0% { transform: translate(100vw, 10vh); }
-            100% { transform: translate(-200px, 10vh); }
+            100% { transform: translate(-50px, 10vh); } 
         }
 
         .star-bg:nth-child(1) { top: 20%; animation-duration: 15s; }
         .star-bg:nth-child(2) { top: 50%; animation-duration: 20s; }
         .star-bg:nth-child(3) { top: 80%; animation-duration: 12s; }
-        
+
         .accent { color: #ff62c1; }
-        
+
         a { 
             color: #c77dff; 
             text-decoration: none; 
             transition: all 0.3s;
+            word-break: break-all; 
         }
-        
+
         a:hover { 
             color: #e0aaff; 
             text-shadow: 0 0 8px #c77dff; 
@@ -54,27 +58,28 @@
             border-bottom: 2px solid #333; 
             padding-bottom: 10px; 
             margin-bottom: 20px;
+            font-size: 1.5rem; 
         }
-        
+
         .gradient-text { 
             background: linear-gradient(to right, #c77dff, #ff62c1);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-        
+
         .stream-item { 
             margin-bottom: 25px; 
             border-left: 2px solid #333; 
             padding: 10px 0 10px 20px; 
             transition: all 0.3s ease;
         }
-        
+
         .stream-item:hover { 
             border-left: 2px solid #ff62c1; 
             background-color: #0a0a0a;
         }
-        
+
         .date { 
             color: #666; 
             font-size: 0.85rem; 
@@ -82,6 +87,11 @@
         }
 
         h2 { margin-top: 40px; color: #fff; font-size: 1.2rem; }
+
+        @media (max-width: 600px) {
+            body { padding: 30px 15px; }
+            h1 { font-size: 1.2rem; }
+        }
     </style>
 </head>
 <body>
@@ -99,7 +109,7 @@
     <p>SYS: <span class="accent">Linux</span>, <span class="accent">Docker</span>, <span class="accent">WSL</span>, <span class="accent">PostgreSQL</span></p>
 
     <h2>//_JOURNEY_LOG</h2>
-    
+
     <div class="stream-item">
         <div class="date">2026.06</div>
         <div>CERTIFIED: <a href="assets/advanced_git.png">Advanced Git</a>, <a href="assets/inter_python.png">Python</a>, <a href="assets/claude.png">Claude Code 101</a></div>

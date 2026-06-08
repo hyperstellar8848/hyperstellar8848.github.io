@@ -11,6 +11,8 @@
             font-family: 'Courier New', Courier, monospace; 
             padding: 50px; 
             line-height: 1.6;
+            max-width: 800px;
+            margin: auto;
         }
         
         .accent { color: #c77dff; }
@@ -31,11 +33,15 @@
         .stream-item { 
             margin-bottom: 25px; 
             border-left: 2px solid #333; 
-            padding-left: 20px; 
-            transition: border-left 0.3s;
+            padding: 10px 0 10px 20px; 
+            transition: all 0.3s ease;
         }
         
-        .stream-item:hover { border-left: 2px solid #c77dff; }
+        .stream-item:hover { 
+            border-left: 2px solid #c77dff; 
+            transform: skew(-2deg) scale(1.01);
+            background-color: #0a0a0a;
+        }
         
         .date { 
             color: #666; 
@@ -49,7 +55,7 @@
 <body>
 
     <h1>PARMIDA BEIKI</h1>
-    <p>CS Student (2027) | <span class="accent">AI & XR Architect</span> | Neurocognition Enthusiast</p>
+    <p>CS Student at NIT (2023-present) | <span class="accent">AI & XR Architect</span> | Neurocognition Enthusiast</p>
 
     <h2>//_TECH_STACK</h2>
     <p>LANG: <span class="accent">C++</span>, <span class="accent">Python</span>, <span class="accent">Java</span>, <span class="accent">JS</span>, <span class="accent">Verilog/VHDL</span></p>

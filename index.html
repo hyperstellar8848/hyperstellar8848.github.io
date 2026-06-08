@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parmida Beiki ✧ ⋆ . ✦ . ⋆ ✧</title>
+    <title>Parmida Beiki | Portfolio</title>
     <style>
         body { 
             background: #000; 
@@ -13,33 +13,29 @@
             line-height: 1.6;
             max-width: 800px;
             margin: auto;
+            overflow: hidden; /* Keeps the stars contained */
+            position: relative;
         }
 
-        body::before {
-            content: "✦ . ✧ . ⋆ ✧ . ✦ . ⋆ ✦ . ✧ . ⋆ ✧ . ✦ . ⋆";
+        /* The cute drifting stars */
+        .star-bg {
             position: fixed;
-            top: 10px;
-            left: 0;
-            width: 100%;
-            text-align: center;
-            color: #333;
-            font-size: 0.8rem;
+            color: #ff62c1;
+            font-size: 10px;
+            z-index: -1; /* Behind the content */
             pointer-events: none;
-            z-index: -1;
+            opacity: 0.6;
+            animation: drift linear infinite;
         }
 
-        body::after {
-            content: "⋆ . ✧ . ✦ . ⋆ ✧ . ✦ . ⋆ ✧ . ✦ . ⋆ ✧ . ✦";
-            position: fixed;
-            bottom: 10px;
-            left: 0;
-            width: 100%;
-            text-align: center;
-            color: #333;
-            font-size: 0.8rem;
-            pointer-events: none;
-            z-index: -1;
+        @keyframes drift {
+            0% { transform: translate(100vw, 10vh); }
+            100% { transform: translate(-200px, 10vh); }
         }
+
+        .star-bg:nth-child(1) { top: 20%; animation-duration: 15s; }
+        .star-bg:nth-child(2) { top: 50%; animation-duration: 20s; }
+        .star-bg:nth-child(3) { top: 80%; animation-duration: 12s; }
         
         .accent { color: #ff62c1; }
         
@@ -90,17 +86,17 @@
 </head>
 <body>
 
+    <!-- Background Drifting Stars -->
+    <div class="star-bg">★</div>
+    <div class="star-bg">★</div>
+    <div class="star-bg">★</div>
+
     <h1><span class="gradient-text">PARMIDA BEIKI</span></h1>
     <p>CS Student at NIT (2023-present) | <span class="accent">AI & XR Architect</span> | Neurocognition Enthusiast</p>
 
     <h2>//_TECH_STACK</h2>
     <p>LANG: <span class="accent">C++</span>, <span class="accent">Python</span>, <span class="accent">Java</span>, <span class="accent">JS</span>, <span class="accent">Verilog/VHDL</span></p>
     <p>SYS: <span class="accent">Linux</span>, <span class="accent">Docker</span>, <span class="accent">WSL</span>, <span class="accent">PostgreSQL</span></p>
-
-    <h2>//_COGNITIVE_CORE</h2>
-    <div class="stream-item">
-        <div><span class="accent">UCMAS IGE Grade 1 Certified:</span> Advanced Mental Arithmetic & Cognitive Visualization (Human-Processor Architecture).</div>
-    </div>
 
     <h2>//_JOURNEY_LOG</h2>
     

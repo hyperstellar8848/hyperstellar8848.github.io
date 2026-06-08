@@ -15,10 +15,10 @@
             margin: auto;
         }
         
-        /* Pink for all tech, code, and languages */
+        /* Pink  */
         .accent { color: #ff62c1; }
         
-        /* Purple for links (Access points) */
+        /* Purple for links */
         a { 
             color: #c77dff; 
             text-decoration: none; 
@@ -30,9 +30,16 @@
             text-shadow: 0 0 8px #c77dff; 
         }
 
-        h1 { border-bottom: 2px solid #333; padding-bottom: 10px; }
+        h1 { 
+            border-bottom: 2px solid #333; 
+            padding-bottom: 10px; 
+            /* The Gradient Effect */
+            background: linear-gradient(to right, #c77dff, #ff62c1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+        }
         
-        /* Clean log items - Glitch removed */
         .stream-item { 
             margin-bottom: 25px; 
             border-left: 2px solid #333; 

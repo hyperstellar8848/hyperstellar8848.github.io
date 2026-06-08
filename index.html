@@ -15,10 +15,8 @@
             margin: auto;
         }
         
-        /* Pink  */
         .accent { color: #ff62c1; }
         
-        /* Purple for links */
         a { 
             color: #c77dff; 
             text-decoration: none; 
@@ -33,11 +31,14 @@
         h1 { 
             border-bottom: 2px solid #333; 
             padding-bottom: 10px; 
-            /* The Gradient Effect */
+            margin-bottom: 20px;
+        }
+        
+        .gradient-text { 
             background: linear-gradient(to right, #c77dff, #ff62c1);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            display: inline-block;
+            background-clip: text;
         }
         
         .stream-item { 
@@ -63,7 +64,7 @@
 </head>
 <body>
 
-    <h1>PARMIDA BEIKI</h1>
+    <h1><span class="gradient-text">PARMIDA BEIKI</span></h1>
     <p>CS Student at NIT (2023-present) | <span class="accent">AI & XR Architect</span> | Neurocognition Enthusiast</p>
 
     <h2>//_TECH_STACK</h2>

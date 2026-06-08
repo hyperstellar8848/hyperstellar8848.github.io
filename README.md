@@ -1,6 +1,6 @@
 # Hi, I'm Parmida
 
-Computer Science student (Graduating 2027) | Aspiring AI & XR Developer
+Computer Science student (Graduating 2027) | Aspiring AI & XR Developer (also interested in neurocognition 🤍)
 
 ---
 ## 🛠 Tech Stack

@@ -37,4 +37,4 @@ Computer Science student (Graduating 2027) | Aspiring AI & XR Developer
 | :--- | :--- | :--- |
 | **2026.06** | Completed 3 DataCamp Cources | [View Cert: Advanced Git](assets/advanced_git.png) |
 | **2025.12** | I,,, | [Read More](#) |
-| **2020.09** | Graduated ILI with C2 in English | [View Cert](assets/ILI1.png)   [(also check this for more info)](assets/ILI2.png)  |
+| **2020.09** | Graduated ILI with C2 in English | [View Cert](assets/ILI_1.png)   [(also check this for more info)](assets/ILI_2.png)  |
